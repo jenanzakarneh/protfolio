@@ -1,0 +1,194 @@
+html {
+  scroll-behavior: smooth;
+}
+
+  
+  body{
+    background-color: white;
+    color: gray;
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans';
+    text-align: center;
+    display: flex;
+     flex-direction: column; 
+     align-items: center;
+    
+  }
+  header{
+    margin: 0;
+    background-color: pink;
+    padding: 15px;
+    box-shadow: 0 0 3px gray;
+    border-radius: 10px;
+  }
+  header li {
+    display: inline;
+    padding-left: 45px;
+    
+  }
+  header li a{
+    float: right;
+    color:white;
+    text-decoration: none;
+    padding-right: 100px;
+  }
+  header li a:hover
+  {
+    color: rgb(145, 233, 233);
+  }
+  header li strong{
+    padding-left: 200px;
+    float:left;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+ img{
+   
+    border-width: 1px;
+    border-color: palevioletred;
+    border-radius: 10px;
+    border-color: gray;
+    box-shadow: 3px 3px rgb(224, 173, 230);
+    
+ }
+  
+  /*about me styles*/
+  .aboutMe{
+    background-color: pink;
+    color:gray;
+    height: 50%;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 20px;  
+  }
+.aboutMe .flex{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+ .aboutMe .bio{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+  
+  
+  /*gallery styles*/
+  .product-small-img img {
+    height: 92px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: 0.5;
+  }
+  .product-small-img img:hover
+  {
+    opacity: 1;
+  }
+  .product-small-img {
+    
+    float:left;
+    padding: 20px;
+  }
+  .img-container{
+    float: right;
+  }
+  .product{
+    width: 80%;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    
+  }
+  
+  .img-container img {
+    height: 300px;
+  }
+ 
+  .buttons{
+    width: 300px;
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+  }
+  .buttons button{
+    border-color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    color:pink;
+    background-color: white;
+  }
+  .gallery{
+    width: 800px;
+    height: 900px;
+    background-color: pink;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .showAll{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: pink;
+    border-color: white;
+    background-color: white;
+  }
+  
+  /*contact info styles*/
+  .contactInfo{
+    width: 300px;
+    background-color: pink;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 20px;
+ }
+ .contactInfo div{
+    width: 200px;
+    margin: 20px;
+    padding: 20px ;
+    background-color: white;
+    color: pink;
+    border-radius: 10px;
+    border: 3px;
+}
+/*projects styles*/
+.project{
+  padding: 5px;
+  text-align: center
+  
+}
+.projectCaption{
+  margin-top: 20px;
+}
+.projects{
+  display: flex;
+  justify-content: space-around;
+  background-color: pink;
+  margin-top: 20px;
+  padding: 75px;
+  border-radius: 10px;
+}
+.aboutMe:hover{
+  background-color: rgb(145, 233, 233);
+}
+.projects:hover{
+  background-color: rgb(145, 233, 233);
+}

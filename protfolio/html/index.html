@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Jenan Zakarneh</title>
+        <link rel="stylesheet" href="/Users/jenanzakarneh/Desktop/2023 Intern Batch/myFirstTask/styles/styles.css">
+        <script src="/Users/jenanzakarneh/Desktop/2023 Intern Batch/myFirstTask/app.js"></script>
+    </head>
+    <body>
+        
+      
+        <header>
+            <ul class="main_nav">
+                <li>
+                    <strong> Jenan Zakarneh </strong>
+                </li>
+                <li>
+                  <a href="#aboutMe" class="nav_links">About me </a>
+                </li>
+                <li>
+                  <a href="#projects" class="nav_links">Projects</a>
+                </li>
+                <li>
+                  <a href="#contactInfo" class="nav_links">Contact info</a>
+                </li>
+                <li>
+                    <a href="#gallery" class="nav_links">Gallery</a>
+                  </li>
+                
+              </ul>
+        </header>
+        <!-- About me tags are here-->
+        <div class="aboutMe" id="aboutMe">
+            <div class="flex">
+                <div>
+                    <h1>Jenan Zakarneh</h1>
+                    <h2>Bachelors Degree in Computer Engineering</h2>
+                    <h3>2017 - 2022 from The University of Jordan</h3>
+                </div>
+                <img src="/Users/jenanzakarneh/Desktop/2023 Intern Batch/myFirstTask/images/IMG_0172.JPG" width="200px" hight="200px">
+            </div>
+            
+            <div class="bio">
+                I am  an intern in Core Development team, with high motivation for growth and gain new experience in software development.
+Jenan is  enthusiastic to learn new technologies, dive more into what she already knows and apply her skills in PwC’s projects.
+
+            </div>
+        </div>
+
+
+        <!--projects tags-->
+        <div class="projects" id="projects">
+            <div class="project"> 
+                <img src="/Users/jenanzakarneh/Desktop/2023 Intern Batch/myFirstTask/images/ChessSet.jpeg" alt="Chess Geme Image " width="200" height="200">
+                <div class="projectCaption">
+                    <strong>Chess Game </strong> <br> 
+                    <small> Nov 2022</small><br>
+                I designed two players chess game and implemented it using java 
+                </div>
+                
+            </div>
+
+            <div class="project"> 
+                <img src="/Users/jenanzakarneh/Desktop/2023 Intern Batch/myFirstTask/images/socialDistance.jpeg" alt="Social Distance Image " width="200" height="200">
+                <div class="projectCaption">
+                    <strong>AI Based Social Distance Monitoring System</strong> <br> 
+                    <small> May 2022</small><br>
+                I implemented a solution to help organization in Monitoring social distance between people in public places
+                </div>
+                
+            </div>
+            
+            <div class="project"> 
+                <img src="/Users/jenanzakarneh/Desktop/2023 Intern Batch/myFirstTask/images/thumbnail.png" alt="XO GAME Image " width="200" height="200">
+                <div class="projectCaption">
+                    <strong>XO Game</strong><br> 
+                    <small>DEC 2022</small><br>
+                I made an XO game using react js for either one player or two players
+                </div>
+                
+            </div>
+        </div>
+          
+               <!--contact info tags-->
+               <div class="contactInfo" id="contactInfo">
+                <div class="email"> 
+                    <strong>Email</strong>
+                <br> jenan.zakarneh@pwc.com
+                </div>
+                <div class="phone">
+                    <strong>Mobile</strong>
+                    <br> 0782741209
+                </div>
+                <div class="sm">
+                    <strong>Linked in </strong> 
+                <br> Jenan Zakarneh
+                  </div>
+            </div>
+              <!--gallery tags here -->
+        
+        <div class="gallery" id="gallery">
+            <div class="product">
+                <div class="product-small-img">
+                    <img id="0" src="/Users/jenanzakarneh/Desktop/2023 Intern Batch/myFirstTask/images/gallery/f1.png" onclick="changeFullImage(this)">
+                    <img id="1" src="/Users/jenanzakarneh/Desktop/2023 Intern Batch/myFirstTask/images/gallery/f2.png" onclick="changeFullImage(this)">
+                    <img id="2" src="/Users/jenanzakarneh/Desktop/2023 Intern Batch/myFirstTask/images/gallery/f3.png" onclick="changeFullImage(this)">
+                    <img id="3" src="/Users/jenanzakarneh/Desktop/2023 Intern Batch/myFirstTask/images/gallery/f4.png" onclick="changeFullImage(this)">
+                </div>
+                <div class="img-container">
+                    <img id="fullImg" src="/Users/jenanzakarneh/Desktop/2023 Intern Batch/myFirstTask/images/gallery/f1.png">
+                </div>
+            </div>
+            <div id="currentPage"></div>
+            <div class="buttons">
+                <button onclick="goToPrevious()">Previous</button>
+                <button onclick="goToNext()">Next</button>
+            </div>
+            <button class="showAll" onclick="showAllImgs()">Show All </button>
+          </div>
+         
+         
+            
+    </body>
+</html>
